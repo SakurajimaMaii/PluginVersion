@@ -7,9 +7,9 @@ package com.gcode.plugin.version
 // Documentation:
 
 object Version {
-    const val compile_sdk_version = 32
+    const val compile_sdk_version = 33
     const val min_sdk_version = 23
-    const val target_sdk_version = 32
+    const val target_sdk_version = 33
     const val version_code = 1
     const val version_name = "1.0"
     const val build_tools_version = "33.0.0"

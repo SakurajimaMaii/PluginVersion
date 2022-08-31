@@ -8,8 +8,6 @@ package com.gcode.plugin.version
 
 object Libraries{
     const val kotlinx_coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4" // Kotlin 依赖库
-    const val gson = "com.google.code.gson:gson:2.9.1"
-    const val material = "com.google.android.material:material:1.6.1"
     const val colorpicker = "com.github.QuadFlask:colorpicker:0.0.15" //颜色选择器
     const val RoundedImageView = "com.github.mmmelik:RoundedImageView:v1.0.1"
     const val ProgressManager = "com.github.JessYanCoding:ProgressManager:v1.5.0"
