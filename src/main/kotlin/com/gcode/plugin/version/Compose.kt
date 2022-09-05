@@ -21,6 +21,7 @@ object Compose {
 
     const val compose_activity = "androidx.activity:activity-compose:$version_compose_activity"
     const val compose_animation = "androidx.compose.animation:animation:$version_compose_animation"
+    const val compose_compiler = "androidx.compose.compiler:compiler:1.1.0-alpha03"
     const val compose_constraintlayout = "androidx.constraintlayout:constraintlayout-compose:$version_compose_constraintlayout"
     const val compose_foundation = "androidx.compose.foundation:foundation:$version_compose_foundation"
     const val compose_foundation_layout = "androidx.compose.foundation:foundation-layout:$version_compose_foundation"
@@ -38,4 +39,5 @@ object Compose {
     const val compose_ui_test_manifest = "androidx.compose.ui:ui-test-manifest:$version_compose"
     const val compose_ui_tooling = "androidx.compose.ui:ui-tooling:$version_compose"
     const val compose_ui_tooling_preview = "androidx.compose.ui:ui-tooling-preview:$version_compose"
+    const val compose_ui_viewbinding = "androidx.compose.ui:ui-viewbinding:1.2.1" // Use xml layout in Compose
 }
