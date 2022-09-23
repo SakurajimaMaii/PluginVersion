@@ -25,6 +25,8 @@ object Libraries{
     const val permissionx = "com.guolindev.permissionx:permissionx:1.6.4" //自定义权限
     const val picktime = "com.github.codbking:PickTime:v1.0.1"
     const val progressmanager = "com.github.JessYanCoding:ProgressManager:v1.5.0"
+    // https://github.com/wasabeef/recyclerview-animators
+    const val recyclerview_animators = "jp.wasabeef:recyclerview-animators:4.0.2"
     const val refresh_footer_ball = "io.github.scwang90:refresh-footer-ball:$refresh_version"        //球脉冲加载
     const val refresh_footer_classics = "io.github.scwang90:refresh-footer-classics:$refresh_version"    //经典加载
     const val refresh_header_classics = "io.github.scwang90:refresh-header-classics:$refresh_version"    //经典刷新头
