@@ -1,0 +1,59 @@
+/*
+ * Copyright 2022 VastGui guihy2019@gmail.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package cn.govast.plugin.version
+
+
+// Author: Vast Gui
+// Email: guihy2019@gmail.com
+// Date: 2022/8/31 15:00
+// Description: 
+// Documentation:
+
+object Compose {
+    private const val version_compose = "1.2.0-beta01"
+    private const val version_compose_activity = "1.4.0"
+    private const val version_compose_animation = "1.2.1"
+    private const val version_compose_constraintlayout = "1.0.1"
+    private const val version_compose_foundation = "1.2.0-rc03"
+    private const val version_compose_lifecycle_viewmodel = "2.5.1"
+    private const val version_compose_material = "1.2.1"
+    private const val version_compose_runtime = "1.2.1"
+    private const val version_material3_version = "1.0.0-alpha11"
+    private const val version_nav_version = "2.5.1"
+
+    const val compose_activity = "androidx.activity:activity-compose:${cn.govast.plugin.version.Compose.version_compose_activity}"
+    const val compose_animation = "androidx.compose.animation:animation:${cn.govast.plugin.version.Compose.version_compose_animation}"
+    const val compose_compiler = "androidx.compose.compiler:compiler:1.1.0-alpha03"
+    const val compose_constraintlayout = "androidx.constraintlayout:constraintlayout-compose:${cn.govast.plugin.version.Compose.version_compose_constraintlayout}"
+    const val compose_foundation = "androidx.compose.foundation:foundation:${cn.govast.plugin.version.Compose.version_compose_foundation}"
+    const val compose_foundation_layout = "androidx.compose.foundation:foundation-layout:${cn.govast.plugin.version.Compose.version_compose_foundation}"
+    const val compose_lifecycle_viewmodel = "androidx.lifecycle:lifecycle-viewmodel-compose:${cn.govast.plugin.version.Compose.version_compose_lifecycle_viewmodel}"
+    const val compose_material = "androidx.compose.material:material:${cn.govast.plugin.version.Compose.version_compose_material}"
+    const val compose_material3 = "androidx.compose.material3:material3:${cn.govast.plugin.version.Compose.version_material3_version}"
+    const val compose_material_icons_core = "androidx.compose.material:material-icons-core:${cn.govast.plugin.version.Compose.version_compose_material}"
+    const val compose_material_icons_extends = "androidx.compose.material:material-icons-extended:${cn.govast.plugin.version.Compose.version_compose_material}"
+    const val compose_nav_version = "androidx.navigation:navigation-compose:${cn.govast.plugin.version.Compose.version_nav_version}"
+    const val compose_runtime = "androidx.compose.runtime:runtime:1.2.0-beta03"
+    const val compose_runtime_livedata = "androidx.compose.runtime:runtime-livedata:1.2.0-beta03"
+    const val compose_runtime_rxjava2 = "androidx.compose.runtime:runtime-rxjava2:1.2.0-beta03"
+    const val compose_ui = "androidx.compose.ui:ui:${cn.govast.plugin.version.Compose.version_compose}"
+    const val compose_ui_test_junit4 = "androidx.compose.ui:ui-test-junit4:${cn.govast.plugin.version.Compose.version_compose}"
+    const val compose_ui_test_manifest = "androidx.compose.ui:ui-test-manifest:${cn.govast.plugin.version.Compose.version_compose}"
+    const val compose_ui_tooling = "androidx.compose.ui:ui-tooling:${cn.govast.plugin.version.Compose.version_compose}"
+    const val compose_ui_tooling_preview = "androidx.compose.ui:ui-tooling-preview:${cn.govast.plugin.version.Compose.version_compose}"
+    const val compose_ui_viewbinding = "androidx.compose.ui:ui-viewbinding:1.2.1" // Use xml layout in Compose
+}
