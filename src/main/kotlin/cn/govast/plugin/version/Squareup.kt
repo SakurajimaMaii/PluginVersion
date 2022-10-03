@@ -26,6 +26,6 @@ package cn.govast.plugin.version
 object Squareup {
     const val okhttp3 = "com.squareup.okhttp3:okhttp:4.10.0"
     const val retrofit2 = "com.squareup.retrofit2:retrofit:2.9.0"
-    const val retrofit2_converter_gson = "com.squareup.retrofit2:converter-gson:2.9.0"
     const val retrofit2_adapter_rxjava3 = "com.squareup.retrofit2:adapter-rxjava3:2.9.0"
+    const val retrofit2_converter_gson = "com.squareup.retrofit2:converter-gson:2.9.0"
 }

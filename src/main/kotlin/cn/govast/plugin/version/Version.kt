@@ -29,10 +29,4 @@ object Version {
     const val version_code = 1
     const val version_name = "1.0"
     const val build_tools_version = "33.0.0"
-
-    const val gradle_version = "7.3.0-rc01"
-    const val kotlin_version = "1.7.10"
-
-    const val gradle = "com.android.tools.build:gradle:${cn.govast.plugin.version.Version.gradle_version}"
-    const val kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${cn.govast.plugin.version.Version.kotlin_version}"
 }
