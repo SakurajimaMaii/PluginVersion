@@ -28,9 +28,9 @@ object Libraries{
     private const val rxjava3 = "3.1.5"
 
     const val aachartcore_kotlin = "com.github.AAChartModel:AAChartCore-Kotlin:-SNAPSHOT"
-    const val addresspicker = "com.github.gzu-liyujiang.AndroidPicker:AddressPicker:4.1.7" //时间选择器
-    const val animatedbottombar = "nl.joery.animatedbottombar:library:1.1.0" //底部导航栏
-    const val circleimageview = "de.hdodenhof:circleimageview:3.1.0"
+    const val addresspicker = "com.github.gzu-liyujiang.AndroidPicker:AddressPicker:4.1.9" //时间选择器 https://github.com/gzu-liyujiang/AndroidPicker
+    const val animatedbottombar = "nl.joery.animatedbottombar:library:1.1.0" //底部导航栏 https://github.com/Droppers/AnimatedBottomBar
+    const val circleimageview = "de.hdodenhof:circleimageview:3.1.0" // https://github.com/hdodenhof/CircleImageView/issues
     const val colorpicker = "com.github.QuadFlask:colorpicker:0.0.15" //颜色选择器
     const val cos_android = "com.qcloud.cos:cos-android:5.9.4" //腾讯云对象存储
     const val donut = "app.futured.donut:donut:$donut_version"
