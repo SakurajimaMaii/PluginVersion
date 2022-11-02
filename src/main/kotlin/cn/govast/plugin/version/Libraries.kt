@@ -35,6 +35,10 @@ object Libraries{
     const val cos_android = "com.qcloud.cos:cos-android:5.9.4" //腾讯云对象存储
     const val donut = "app.futured.donut:donut:$donut_version"
     const val donut_compose = "app.futured.donut:donut-compose:$donut_version"
+    const val event_bus = "org.greenrobot:eventbus:3.3.1" // https://github.com/greenrobot/EventBus
+    const val flow_event_bus = "com.github.biubiuqiu0:flow-event-bus:1.0.1" // https://github.com/biubiuqiu0/flow-event-bus
+    const val glide = "com.github.bumptech.glide:glide:4.14.2" // https://github.com/bumptech/glide
+    const val glide_compiler = "com.github.bumptech.glide:compiler:4.14.2" // https://github.com/bumptech/glide
     const val gradienttext = "io.github.weilianyang:gradienttext:1.0.2" // 渐变色字体
     const val junit = "junit:junit:4.13.2"
     const val mmkv = "com.tencent:mmkv:1.2.14"
@@ -54,6 +58,7 @@ object Libraries{
     const val roundedimageview = "com.github.mmmelik:RoundedImageView:v1.0.1"
     const val rxjava3_rxandroid = "io.reactivex.rxjava3:rxandroid:3.0.0"
     const val rxjava3_rxjava = "io.reactivex.rxjava3:rxjava:$rxjava3" // https://github.com/ReactiveX/RxJava
+    const val tbs="com.tencent.tbs:tbssdk:44216"
     const val transformationlayout = "com.github.skydoves:transformationlayout:1.0.8"
     const val vastadapter = "io.github.sakurajimamaii:VastAdapter:0.0.5"
     const val vastnetstatelayout = "io.github.sakurajimamaii:VastNetStateLayout:0.0.3"

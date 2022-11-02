@@ -75,6 +75,7 @@ object AndroidX{
     const val recyclerview = "androidx.recyclerview:recyclerview:$recyclerview_version"
     const val recyclerview_selection = "androidx.recyclerview:recyclerview-selection:$recyclerview_selection_version"
     const val room_compiler = "androidx.room:room-compiler:$room_version"
+    const val room_ktx = "androidx.room:room-ktx:$room_version"
     const val room_runtime = "androidx.room:room-runtime:$room_version"
     const val start_up_runtime = "androidx.startup:startup-runtime:$start_up_version"
     const val test_monitor = "androidx.test:monitor:$test_monitor_version"
