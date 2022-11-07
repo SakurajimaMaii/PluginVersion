@@ -39,6 +39,7 @@ object Libraries{
     const val flow_event_bus = "com.github.biubiuqiu0:flow-event-bus:1.0.1" // https://github.com/biubiuqiu0/flow-event-bus
     const val glide = "com.github.bumptech.glide:glide:4.14.2" // https://github.com/bumptech/glide
     const val glide_compiler = "com.github.bumptech.glide:compiler:4.14.2" // https://github.com/bumptech/glide
+    const val glide_transformations = "jp.wasabeef:glide-transformations:4.3.0" // https://github.com/wasabeef/glide-transformations
     const val gradienttext = "io.github.weilianyang:gradienttext:1.0.2" // 渐变色字体
     const val junit = "junit:junit:4.13.2"
     const val mmkv = "com.tencent:mmkv:1.2.14"

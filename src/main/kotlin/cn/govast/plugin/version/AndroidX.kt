@@ -70,6 +70,7 @@ object AndroidX{
     const val nav_dynamic_features_fragment = "androidx.navigation:navigation-dynamic-features-fragment:$nav_version"
     const val nav_fragment_ktx = "androidx.navigation:navigation-fragment-ktx:$nav_version"
     const val nav_ui_ktx = "androidx.navigation:navigation-ui-ktx:$nav_version"
+    const val palette = "androidx.palette:palette:1.0.0"
     const val preference = "androidx.preference:preference:$preference_version"
     const val preference_ktx = "androidx.preference:preference-ktx:$preference_version"
     const val recyclerview = "androidx.recyclerview:recyclerview:$recyclerview_version"
