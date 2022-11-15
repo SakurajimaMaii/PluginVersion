@@ -33,9 +33,10 @@ object AndroidX{
     private const val fragment_version = "1.5.2"
     private const val lifecycle_version = "2.5.0-rc01"
     private const val nav_version = "2.5.2"
+    private const val paging_version = "3.1.1"
     private const val preference_version = "1.2.0"
-    private const val recyclerview_version = "1.2.1" // https://developer.android.com/jetpack/androidx/releases/recyclerview
     private const val recyclerview_selection_version = "1.1.0"
+    private const val recyclerview_version = "1.2.1" // https://developer.android.com/jetpack/androidx/releases/recyclerview
     private const val room_version = "2.4.3"
     private const val start_up_version = "1.1.1"
     private const val test_monitor_version = "1.5.0"
@@ -70,6 +71,7 @@ object AndroidX{
     const val nav_dynamic_features_fragment = "androidx.navigation:navigation-dynamic-features-fragment:$nav_version"
     const val nav_fragment_ktx = "androidx.navigation:navigation-fragment-ktx:$nav_version"
     const val nav_ui_ktx = "androidx.navigation:navigation-ui-ktx:$nav_version"
+    const val paging3 = "androidx.paging:paging-runtime:$paging_version"
     const val palette = "androidx.palette:palette:1.0.0"
     const val preference = "androidx.preference:preference:$preference_version"
     const val preference_ktx = "androidx.preference:preference-ktx:$preference_version"
