@@ -32,9 +32,9 @@ gradlePlugin {
     plugins {
         create("version") {
             //添加插件
-            id = "cn.govast.plugin.version"
+            id = "com.pluginversion.vastgui"
             //在根目录创建类 VersionPlugin 继承 Plugin<Project>
-            implementationClass = "cn.govast.plugin.version.VersionPlugin"
+            implementationClass = "com.pluginversion.vastgui.VersionPlugin"
         }
     }
 }

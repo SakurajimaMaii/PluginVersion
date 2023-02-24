@@ -14,19 +14,21 @@
  * limitations under the License.
  */
 
-package cn.govast.plugin.version
+package com.pluginversion.vastgui
+
 
 // Author: Vast Gui
 // Email: guihy2019@gmail.com
-// Date: 2022/8/31 15:40
+// Date: 2022/9/3 12:18
 // Description: 
 // Documentation:
 
-object Google {
-    const val accompanist_coil = "com.google.accompanist:accompanist-coil:0.15.0" // 加载网络图片
-    const val accompanist_insets = "com.google.accompanist:accompanist-insets:0.26.2-beta"
-    const val accompanist_insets_ui = "com.google.accompanist:accompanist-insets-ui:0.26.2-beta"
-    const val accompanist_systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.26.2-beta"
-    const val gson = "com.google.code.gson:gson:2.9.1"
-    const val material = "com.google.android.material:material:1.7.0-rc01"
+object Jetbrains {
+    private const val kotlin_coroutines_version = "1.6.4"
+    private const val kotlin_reflect_version = "1.7.20"
+
+    const val kotlin_reflect = "org.jetbrains.kotlin:kotlin-reflect:$kotlin_reflect_version"
+    const val kotlinx_coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version"
+    const val kotlinx_coroutines_core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version"
+    const val kotlinx_coroutines_rx3 = "org.jetbrains.kotlinx:kotlinx-coroutines-rx3:$kotlin_coroutines_version"
 }

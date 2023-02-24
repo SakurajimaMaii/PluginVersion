@@ -14,18 +14,23 @@
  * limitations under the License.
  */
 
-package cn.govast.plugin.version
+package com.pluginversion.vastgui
 
+import org.gradle.api.JavaVersion
 
 // Author: Vast Gui
 // Email: guihy2019@gmail.com
-// Date: 2022/9/3 12:20
+// Date: 2022/8/29 17:04
 // Description: 
 // Documentation:
 
-object Squareup {
-    const val okhttp3 = "com.squareup.okhttp3:okhttp:4.10.0"
-    const val retrofit2 = "com.squareup.retrofit2:retrofit:2.9.0"
-    const val retrofit2_adapter_rxjava3 = "com.squareup.retrofit2:adapter-rxjava3:2.9.0"
-    const val retrofit2_converter_gson = "com.squareup.retrofit2:converter-gson:2.9.0"
+object Version {
+    const val compile_sdk_version = 33
+    const val min_sdk_version = 23
+    const val target_sdk_version = 33
+    const val version_code = 1
+    const val version_name = "1.0"
+    const val build_tools_version = "33.0.0"
+    const val kotlin_version = "1.7.20"
+    val java_version = JavaVersion.VERSION_11
 }

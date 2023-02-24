@@ -14,21 +14,18 @@
  * limitations under the License.
  */
 
-package cn.govast.plugin.version
+package com.pluginversion.vastgui
 
 
 // Author: Vast Gui
 // Email: guihy2019@gmail.com
-// Date: 2022/9/3 12:18
+// Date: 2022/9/3 12:20
 // Description: 
 // Documentation:
 
-object Jetbrains {
-    private const val kotlin_coroutines_version = "1.6.4"
-    private const val kotlin_reflect_version = "1.7.20"
-
-    const val kotlin_reflect = "org.jetbrains.kotlin:kotlin-reflect:$kotlin_reflect_version"
-    const val kotlinx_coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version"
-    const val kotlinx_coroutines_core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version"
-    const val kotlinx_coroutines_rx3 = "org.jetbrains.kotlinx:kotlinx-coroutines-rx3:$kotlin_coroutines_version"
+object Squareup {
+    const val okhttp3 = "com.squareup.okhttp3:okhttp:4.10.0"
+    const val retrofit2 = "com.squareup.retrofit2:retrofit:2.9.0"
+    const val retrofit2_adapter_rxjava3 = "com.squareup.retrofit2:adapter-rxjava3:2.9.0"
+    const val retrofit2_converter_gson = "com.squareup.retrofit2:converter-gson:2.9.0"
 }

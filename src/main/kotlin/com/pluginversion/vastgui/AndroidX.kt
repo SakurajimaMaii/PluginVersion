@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package cn.govast.plugin.version
+package com.pluginversion.vastgui
 
 // Author: Vast Gui
 // Email: guihy2019@gmail.com
@@ -80,7 +80,9 @@ object AndroidX{
     const val room_compiler = "androidx.room:room-compiler:$room_version"
     const val room_ktx = "androidx.room:room-ktx:$room_version"
     const val room_runtime = "androidx.room:room-runtime:$room_version"
+    const val security_crypto = "androidx.security:security-crypto:1.1.0-alpha04"
     const val start_up_runtime = "androidx.startup:startup-runtime:$start_up_version"
     const val test_monitor = "androidx.test:monitor:$test_monitor_version"
     const val viewpager2 = "androidx.viewpager2:viewpager2:1.0.0"
+
 }

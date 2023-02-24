@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package cn.govast.plugin.version
+package com.pluginversion.vastgui
 
 // Author: Vast Gui
 // Email: guihy2019@gmail.com
@@ -26,6 +26,7 @@ object Libraries{
     private const val donut_version = "2.2.0"
     private const val refresh_version = "2.0.5"
     private const val rxjava3 = "3.1.5"
+    private const val jackson_version = "2.14.2"
 
     const val aachartcore_kotlin = "com.github.AAChartModel:AAChartCore-Kotlin:-SNAPSHOT"
     const val addresspicker = "com.github.gzu-liyujiang.AndroidPicker:AddressPicker:4.1.9" //时间选择器 https://github.com/gzu-liyujiang/AndroidPicker
@@ -41,7 +42,11 @@ object Libraries{
     const val glide_compiler = "com.github.bumptech.glide:compiler:4.14.2" // https://github.com/bumptech/glide
     const val glide_transformations = "jp.wasabeef:glide-transformations:4.3.0" // https://github.com/wasabeef/glide-transformations
     const val gradienttext = "io.github.weilianyang:gradienttext:1.0.2" // 渐变色字体
+    const val jackson_annotations = "com.fasterxml.jackson.core:jackson-annotations:$jackson_version"
+    const val jackson_core = "com.fasterxml.jackson.core:jackson-core:$jackson_version"
+    const val jackson_databind = "com.fasterxml.jackson.core:jackson-databind:$jackson_version"
     const val junit = "junit:junit:4.13.2"
+    const val lombok = "org.projectlombok:lombok:1.18.26" // https://mvnrepository.com/artifact/org.projectlombok/lombok
     const val mmkv = "com.tencent:mmkv:1.2.14"
     const val navi_3dmap = "com.amap.api:navi-3dmap:9.3.0_3dmap9.3.0"
     const val permissionx = "com.guolindev.permissionx:permissionx:1.6.4" //自定义权限
@@ -64,4 +69,5 @@ object Libraries{
     const val vastadapter = "io.github.sakurajimamaii:VastAdapter:0.0.5"
     const val vastnetstatelayout = "io.github.sakurajimamaii:VastNetStateLayout:0.0.3"
     const val zxing = "com.google.zxing:core:3.5.0" // https://github.com/zxing/zxing
+
 }

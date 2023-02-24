@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package cn.govast.plugin.version
+package com.pluginversion.vastgui
 
 
 // Author: Vast Gui
