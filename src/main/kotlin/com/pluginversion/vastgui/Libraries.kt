@@ -30,6 +30,7 @@ object Libraries{
 
     const val aachartcore_kotlin = "com.github.AAChartModel:AAChartCore-Kotlin:-SNAPSHOT"
     const val addresspicker = "com.github.gzu-liyujiang.AndroidPicker:AddressPicker:4.1.9" //时间选择器 https://github.com/gzu-liyujiang/AndroidPicker
+    const val amapSearch = "com.amap.api:search:latest.integration"
     const val animatedbottombar = "nl.joery.animatedbottombar:library:1.1.0" //底部导航栏 https://github.com/Droppers/AnimatedBottomBar
     const val circleimageview = "de.hdodenhof:circleimageview:3.1.0" // https://github.com/hdodenhof/CircleImageView/issues
     const val colorpicker = "com.github.QuadFlask:colorpicker:0.0.15" //颜色选择器
@@ -48,7 +49,7 @@ object Libraries{
     const val junit = "junit:junit:4.13.2"
     const val lombok = "org.projectlombok:lombok:1.18.26" // https://mvnrepository.com/artifact/org.projectlombok/lombok
     const val mmkv = "com.tencent:mmkv:1.2.14"
-    const val navi_3dmap = "com.amap.api:navi-3dmap:9.3.0_3dmap9.3.0"
+    const val navi_3dmap = "com.amap.api:navi-3dmap:9.6.0_3dmap9.6.0"
     const val permissionx = "com.guolindev.permissionx:permissionx:1.6.4" //自定义权限
     const val picktime = "com.github.codbking:PickTime:v1.0.1"
     const val progressmanager = "com.github.JessYanCoding:ProgressManager:v1.5.0"

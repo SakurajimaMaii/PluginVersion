@@ -31,6 +31,6 @@ object Version {
     const val version_code = 1
     const val version_name = "1.0"
     const val build_tools_version = "33.0.0"
-    const val kotlin_version = "1.7.20"
-    val java_version = JavaVersion.VERSION_11
+    const val kotlin_version = "1.8.0"
+    val java_version = JavaVersion.VERSION_17
 }
