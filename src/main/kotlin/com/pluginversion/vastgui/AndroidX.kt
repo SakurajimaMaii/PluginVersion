@@ -25,7 +25,7 @@ package com.pluginversion.vastgui
 object AndroidX{
     private const val activity_version = "1.5.1"
     private const val annotation_version = "1.5.0"
-    private const val appcompat_version = "1.5.1"
+    private const val appcompat_version = "1.6.1"
     private const val arch_core_version = "2.1.0"
     private const val camerax_version = "1.2.0-alpha04"
     private const val core_version = "1.9.0"

@@ -12,14 +12,14 @@ repositories {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 // 详情见 https://stackoverflow.com/questions/55456176/unresolved-reference-compilekotlin-in-build-gradle-kts
 tasks.withType<KotlinCompile>{
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = JavaVersion.VERSION_17.toString()
     }
 }
 
