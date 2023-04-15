@@ -27,6 +27,6 @@ object Google {
     const val accompanist_insets = "com.google.accompanist:accompanist-insets:0.26.2-beta"
     const val accompanist_insets_ui = "com.google.accompanist:accompanist-insets-ui:0.26.2-beta"
     const val accompanist_systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.26.2-beta"
-    const val gson = "com.google.code.gson:gson:2.9.1"
+    const val gson = "com.google.code.gson:gson:2.10.1"
     const val material = "com.google.android.material:material:1.9.0-beta01"
 }
