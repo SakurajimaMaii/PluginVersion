@@ -25,7 +25,7 @@ package com.pluginversion.vastgui
 
 object AVE {
     const val core = "io.github.sakurajimamaii:VastCore:0.0.3"
-    const val tools = "io.github.sakurajimamaii:VastTools:0.4.0"
+    const val tools = "io.github.sakurajimamaii:VastTools:0.4.1"
     const val netstatelayout = "io.github.sakurajimamaii:VastNetStateLayout:0.0.4"
     const val adapter = "io.github.sakurajimamaii:VastAdapter:0.1.0"
 }
