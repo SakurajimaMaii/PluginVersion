@@ -29,6 +29,7 @@ object AndroidX{
     private const val arch_core_version = "2.1.0"
     private const val camerax_version = "1.2.0-alpha04"
     private const val core_version = "1.9.0"
+    private const val exifinterface_version = "1.3.6" // https://developer.android.com/jetpack/androidx/releases/exifinterface
     private const val ext_junit_version = "1.1.3"
     private const val fragment_version = "1.5.2"
     private const val lifecycle_version = "2.5.0-rc01"
@@ -56,6 +57,7 @@ object AndroidX{
     const val core_ktx = "androidx.core:core-ktx:$core_version"
     const val core_splashscreen = "androidx.core:core-splashscreen:1.0.0"
     const val espresso_core = "androidx.test.espresso:espresso-core:3.4.0"
+    const val exifinterface = "androidx.exifinterface:exifinterface:$exifinterface_version"
     const val fragment = "androidx.fragment:fragment:$fragment_version"
     const val fragment_ktx = "androidx.fragment:fragment-ktx:$fragment_version"
     const val fragment_testing = "androidx.fragment:fragment-testing:$fragment_version"
