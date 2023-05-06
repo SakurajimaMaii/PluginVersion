@@ -29,4 +29,5 @@ object Google {
     const val accompanist_systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.26.2-beta"
     const val gson = "com.google.code.gson:gson:2.10.1"
     const val material = "com.google.android.material:material:1.9.0-beta01"
+    const val symbol_processing_api = "com.google.devtools.ksp:symbol-processing-api:1.8.10-1.0.9"
 }

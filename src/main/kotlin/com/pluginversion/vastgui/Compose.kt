@@ -24,7 +24,7 @@ package com.pluginversion.vastgui
 // Documentation:
 
 object Compose {
-    private const val version_compose = "1.2.0-beta01"
+    private const val version_compose = "1.3.3"
     private const val version_compose_activity = "1.4.0"
     private const val version_compose_animation = "1.2.1"
     private const val version_compose_constraintlayout = "1.0.1"
@@ -51,6 +51,7 @@ object Compose {
     const val compose_runtime_livedata = "androidx.compose.runtime:runtime-livedata:1.2.0-beta03"
     const val compose_runtime_rxjava2 = "androidx.compose.runtime:runtime-rxjava2:1.2.0-beta03"
     const val compose_ui = "androidx.compose.ui:ui:$version_compose"
+    const val compose_ui_graphics = "androidx.compose.ui:ui-graphics:$version_compose"
     const val compose_ui_test_junit4 = "androidx.compose.ui:ui-test-junit4:$version_compose"
     const val compose_ui_test_manifest = "androidx.compose.ui:ui-test-manifest:$version_compose"
     const val compose_ui_tooling = "androidx.compose.ui:ui-tooling:$version_compose"

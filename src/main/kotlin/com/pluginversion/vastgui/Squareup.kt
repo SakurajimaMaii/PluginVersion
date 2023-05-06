@@ -28,4 +28,7 @@ object Squareup {
     const val retrofit2 = "com.squareup.retrofit2:retrofit:2.9.0"
     const val retrofit2_adapter_rxjava3 = "com.squareup.retrofit2:adapter-rxjava3:2.9.0"
     const val retrofit2_converter_gson = "com.squareup.retrofit2:converter-gson:2.9.0"
+    const val javapoet = "com.squareup:javapoet:1.13.0"
+    const val kotlinpoet = "com.squareup:kotlinpoet:1.13.0"
+    const val kotlinpoet_ksp = "com.squareup:kotlinpoet-ksp:1.13.0"
 }

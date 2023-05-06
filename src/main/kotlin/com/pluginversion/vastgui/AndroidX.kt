@@ -23,12 +23,12 @@ package com.pluginversion.vastgui
 // Documentation:
 
 object AndroidX{
-    private const val activity_version = "1.5.1"
+    private const val activity_version = "1.7.0-beta02" // https://developer.android.com/jetpack/androidx/releases/activity
     private const val annotation_version = "1.5.0"
-    private const val appcompat_version = "1.6.1"
+    private const val appcompat_version = "1.6.1" // https://developer.android.com/jetpack/androidx/releases/appcompat
     private const val arch_core_version = "2.1.0"
     private const val camerax_version = "1.2.0-alpha04"
-    private const val core_version = "1.9.0"
+    private const val core_version = "1.10.0"
     private const val exifinterface_version = "1.3.6" // https://developer.android.com/jetpack/androidx/releases/exifinterface
     private const val ext_junit_version = "1.1.3"
     private const val fragment_version = "1.5.2"
@@ -42,9 +42,11 @@ object AndroidX{
     private const val start_up_version = "1.1.1"
     private const val test_monitor_version = "1.5.0"
 
+    const val activity = "androidx.activity:activity:$activity_version"
     const val activity_ktx = "androidx.activity:activity-ktx:$activity_version"
     const val annotation = "androidx.annotation:annotation:$annotation_version"
     const val appcompat = "androidx.appcompat:appcompat:$appcompat_version"
+    const val appcompat_resources = "androidx.appcompat:appcompat-resources:$appcompat_version"
     const val arch_core_runtime = "androidx.arch.core:core-runtime:$arch_core_version"
     const val camerax_camera2 = "androidx.camera:camera-camera2:$camerax_version"
     const val camerax_core = "androidx.camera:camera-core:$camerax_version"
