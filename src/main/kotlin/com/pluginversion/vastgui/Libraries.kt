@@ -28,7 +28,7 @@ object Libraries{
     private const val rxjava3 = "3.1.5"
     private const val jackson_version = "2.14.2"
 
-    const val aachartcore_kotlin = "com.github.AAChartModel:AAChartCore-Kotlin:-SNAPSHOT"
+    const val aachartcore_kotlin = "com.github.AAChartModel:AAChartCore-Kotlin:7.2.0" // 图表 https://github.com/AAChartModel/AAChartCore-Kotlin/issues/146
     const val addresspicker = "com.github.gzu-liyujiang.AndroidPicker:AddressPicker:4.1.9" //时间选择器 https://github.com/gzu-liyujiang/AndroidPicker
     const val amapSearch = "com.amap.api:search:latest.integration"
     const val animatedbottombar = "nl.joery.animatedbottombar:library:1.1.0" //底部导航栏 https://github.com/Droppers/AnimatedBottomBar

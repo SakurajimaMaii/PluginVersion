@@ -32,7 +32,7 @@ object Compose {
     private const val version_compose_lifecycle_viewmodel = "2.5.1"
     private const val version_compose_material = "1.2.1"
     private const val version_compose_runtime = "1.2.1"
-    private const val version_material3_version = "1.0.0-alpha11"
+    private const val version_material3_version = "1.1.0-alpha06"
     private const val version_nav_version = "2.5.1"
 
     const val compose_activity = "androidx.activity:activity-compose:$version_compose_activity"
