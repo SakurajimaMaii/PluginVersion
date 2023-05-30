@@ -27,6 +27,7 @@ object Libraries{
     private const val refresh_version = "2.0.5"
     private const val rxjava3 = "3.1.5"
     private const val jackson_version = "2.14.2"
+    private const val compose_setting_version = "0.27.0"
 
     const val aachartcore_kotlin = "com.github.AAChartModel:AAChartCore-Kotlin:7.2.0" // 图表 https://github.com/AAChartModel/AAChartCore-Kotlin/issues/146
     const val addresspicker = "com.github.gzu-liyujiang.AndroidPicker:AddressPicker:4.1.9" //时间选择器 https://github.com/gzu-liyujiang/AndroidPicker
@@ -70,5 +71,6 @@ object Libraries{
     const val vastadapter = "io.github.sakurajimamaii:VastAdapter:0.0.5"
     const val vastnetstatelayout = "io.github.sakurajimamaii:VastNetStateLayout:0.0.3"
     const val zxing = "com.google.zxing:core:3.5.0" // https://github.com/zxing/zxing
-
+    const val compose_settings_ui_m3 = "com.github.alorma:compose-settings-ui-m3:$compose_setting_version" // https://github.com/alorma/Compose-Settings
+    const val compose_settings_storage_preferences = "com.github.alorma:compose-settings-storage-preferences:$compose_setting_version"
 }

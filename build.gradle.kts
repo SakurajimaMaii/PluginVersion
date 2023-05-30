@@ -25,7 +25,7 @@ tasks.withType<KotlinCompile>{
 
 dependencies {
     implementation(gradleApi())
-    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10")
+    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.10")
 }
 
 gradlePlugin {

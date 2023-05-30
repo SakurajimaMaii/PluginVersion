@@ -29,6 +29,8 @@ object AndroidX{
     private const val arch_core_version = "2.1.0"
     private const val camerax_version = "1.2.0-alpha04"
     private const val core_version = "1.10.0"
+    private const val datastore_version = "1.0.0" // https://developer.android.com/topic/libraries/architecture/datastore
+    private const val emoji2_version = "1.4.0-beta04" // https://developer.android.com/jetpack/androidx/releases/emoji2
     private const val exifinterface_version = "1.3.6" // https://developer.android.com/jetpack/androidx/releases/exifinterface
     private const val ext_junit_version = "1.1.3"
     private const val fragment_version = "1.5.2"
@@ -58,6 +60,10 @@ object AndroidX{
     const val constraintlayout = "androidx.constraintlayout:constraintlayout:2.1.4"
     const val core_ktx = "androidx.core:core-ktx:$core_version"
     const val core_splashscreen = "androidx.core:core-splashscreen:1.0.0"
+    const val datastore = "androidx.datastore:datastore-preferences:$datastore_version"
+    const val emoji2 = "androidx.emoji2:emoji2:$emoji2_version"
+    const val emoji2_views = "androidx.emoji2:emoji2-views:$emoji2_version"
+    const val emoji2_views_helper = "androidx.emoji2:emoji2-views-helper:$emoji2_version"
     const val espresso_core = "androidx.test.espresso:espresso-core:3.4.0"
     const val exifinterface = "androidx.exifinterface:exifinterface:$exifinterface_version"
     const val fragment = "androidx.fragment:fragment:$fragment_version"
@@ -88,5 +94,4 @@ object AndroidX{
     const val start_up_runtime = "androidx.startup:startup-runtime:$start_up_version"
     const val test_monitor = "androidx.test:monitor:$test_monitor_version"
     const val viewpager2 = "androidx.viewpager2:viewpager2:1.0.0"
-
 }

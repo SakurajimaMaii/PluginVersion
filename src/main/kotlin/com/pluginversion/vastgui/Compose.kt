@@ -27,13 +27,13 @@ object Compose {
     private const val version_compose = "1.3.3"
     private const val version_compose_activity = "1.4.0"
     private const val version_compose_animation = "1.2.1"
-    private const val version_compose_constraintlayout = "1.0.1"
+    private const val version_compose_constraintlayout = "1.0.1" // https://developer.android.com/jetpack/androidx/releases/constraintlayout
     private const val version_compose_foundation = "1.2.0-rc03"
     private const val version_compose_lifecycle_viewmodel = "2.5.1"
     private const val version_compose_material = "1.2.1"
     private const val version_compose_runtime = "1.2.1"
     private const val version_material3_version = "1.1.0-alpha06"
-    private const val version_nav_version = "2.5.1"
+    private const val version_nav_version = "2.5.3" // https://developer.android.com/jetpack/compose/navigation
 
     const val compose_activity = "androidx.activity:activity-compose:$version_compose_activity"
     const val compose_animation = "androidx.compose.animation:animation:$version_compose_animation"
@@ -46,7 +46,7 @@ object Compose {
     const val compose_material3 = "androidx.compose.material3:material3:$version_material3_version"
     const val compose_material_icons_core = "androidx.compose.material:material-icons-core:$version_compose_material"
     const val compose_material_icons_extends = "androidx.compose.material:material-icons-extended:$version_compose_material"
-    const val compose_nav_version = "androidx.navigation:navigation-compose:$version_nav_version"
+    const val compose_navigation = "androidx.navigation:navigation-compose:$version_nav_version"
     const val compose_runtime = "androidx.compose.runtime:runtime:1.2.0-beta03"
     const val compose_runtime_livedata = "androidx.compose.runtime:runtime-livedata:1.2.0-beta03"
     const val compose_runtime_rxjava2 = "androidx.compose.runtime:runtime-rxjava2:1.2.0-beta03"
