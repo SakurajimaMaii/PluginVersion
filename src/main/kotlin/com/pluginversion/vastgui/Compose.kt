@@ -27,6 +27,7 @@ object Compose {
     private const val version_compose = "1.3.3"
     private const val version_compose_activity = "1.4.0"
     private const val version_compose_animation = "1.2.1"
+    private const val version_compose_bom = "2023.05.01" // https://developer.android.com/jetpack/compose/bom/bom-mapping
     private const val version_compose_constraintlayout = "1.0.1" // https://developer.android.com/jetpack/androidx/releases/constraintlayout
     private const val version_compose_foundation = "1.2.0-rc03"
     private const val version_compose_lifecycle_viewmodel = "2.5.1"
@@ -37,6 +38,7 @@ object Compose {
 
     const val compose_activity = "androidx.activity:activity-compose:$version_compose_activity"
     const val compose_animation = "androidx.compose.animation:animation:$version_compose_animation"
+    const val compose_bom = "androidx.compose:compose-bom:$version_compose_bom"
     const val compose_compiler = "androidx.compose.compiler:compiler:1.1.0-alpha03"
     const val compose_constraintlayout = "androidx.constraintlayout:constraintlayout-compose:$version_compose_constraintlayout"
     const val compose_foundation = "androidx.compose.foundation:foundation:$version_compose_foundation"
