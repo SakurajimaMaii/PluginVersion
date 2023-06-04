@@ -24,13 +24,15 @@ package com.pluginversion.vastgui
 // Documentation:
 
 object Jetbrains {
-    private const val kotlin_coroutines_version = "1.6.4"
-    private const val kotlin_reflect_version = "1.7.20"
-    private const val kotlin_stdlib_version = "1.8.20"
+    private const val coroutines_version = "1.6.4"
+    private const val reflect_version = "1.7.20"
+    private const val coroutines_android_version = "1.7.1" // https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-android
+    private const val coroutines_core_version = "1.7.1"
+    private const val coroutines_rx3_version = "1.7.1" // https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-rx3
 
-    const val kotlin_stdlib = "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_stdlib_version"
-    const val kotlin_reflect = "org.jetbrains.kotlin:kotlin-reflect:$kotlin_reflect_version"
-    const val kotlinx_coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version"
-    const val kotlinx_coroutines_core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version"
-    const val kotlinx_coroutines_rx3 = "org.jetbrains.kotlinx:kotlinx-coroutines-rx3:$kotlin_coroutines_version"
+    const val kotlin_stdlib = "org.jetbrains.kotlin:kotlin-stdlib:$coroutines_version"
+    const val kotlin_reflect = "org.jetbrains.kotlin:kotlin-reflect:$reflect_version"
+    const val kotlinx_coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_android_version"
+    const val kotlinx_coroutines_core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_core_version"
+    const val kotlinx_coroutines_rx3 = "org.jetbrains.kotlinx:kotlinx-coroutines-rx3:$coroutines_rx3_version"
 }
