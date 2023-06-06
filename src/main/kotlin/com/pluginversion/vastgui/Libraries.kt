@@ -35,6 +35,9 @@ object Libraries{
     const val animatedbottombar = "nl.joery.animatedbottombar:library:1.1.0" //底部导航栏 https://github.com/Droppers/AnimatedBottomBar
     const val circleimageview = "de.hdodenhof:circleimageview:3.1.0" // https://github.com/hdodenhof/CircleImageView/issues
     const val colorpicker = "com.github.QuadFlask:colorpicker:0.0.15" //颜色选择器
+    const val compose_coil = "io.coil-kt:coil-compose:2.4.0" // https://github.com/coil-kt/coil/
+    const val compose_settings_storage_preferences = "com.github.alorma:compose-settings-storage-preferences:$compose_setting_version"
+    const val compose_settings_ui_m3 = "com.github.alorma:compose-settings-ui-m3:$compose_setting_version" // https://github.com/alorma/Compose-Settings
     const val cos_android = "com.qcloud.cos:cos-android:5.9.4" //腾讯云对象存储
     const val donut = "app.futured.donut:donut:$donut_version"
     const val donut_compose = "app.futured.donut:donut-compose:$donut_version"
@@ -71,6 +74,4 @@ object Libraries{
     const val vastadapter = "io.github.sakurajimamaii:VastAdapter:0.0.5"
     const val vastnetstatelayout = "io.github.sakurajimamaii:VastNetStateLayout:0.0.3"
     const val zxing = "com.google.zxing:core:3.5.0" // https://github.com/zxing/zxing
-    const val compose_settings_ui_m3 = "com.github.alorma:compose-settings-ui-m3:$compose_setting_version" // https://github.com/alorma/Compose-Settings
-    const val compose_settings_storage_preferences = "com.github.alorma:compose-settings-storage-preferences:$compose_setting_version"
 }
