@@ -28,6 +28,7 @@ object Libraries{
     private const val rxjava3 = "3.1.5"
     private const val jackson_version = "2.14.2"
     private const val compose_setting_version = "0.27.0"
+    const val proto_version = "3.23.2"
 
     const val aachartcore_kotlin = "com.github.AAChartModel:AAChartCore-Kotlin:7.2.0" // 图表 https://github.com/AAChartModel/AAChartCore-Kotlin/issues/146
     const val addresspicker = "com.github.gzu-liyujiang.AndroidPicker:AddressPicker:4.1.9" //时间选择器 https://github.com/gzu-liyujiang/AndroidPicker
@@ -57,6 +58,8 @@ object Libraries{
     const val permissionx = "com.guolindev.permissionx:permissionx:1.6.4" //自定义权限
     const val picktime = "com.github.codbking:PickTime:v1.0.1"
     const val progressmanager = "com.github.JessYanCoding:ProgressManager:v1.5.0"
+    const val protobuf_kotlin = "com.google.protobuf:protobuf-kotlin:$proto_version"
+    const val protobuf_kotlin_lite = "com.google.protobuf:protobuf-kotlin-lite:$proto_version"
     const val recyclerview_animators = "jp.wasabeef:recyclerview-animators:4.0.2" // https://github.com/wasabeef/recyclerview-animators
     const val refresh_footer_ball = "io.github.scwang90:refresh-footer-ball:$refresh_version"        //球脉冲加载
     const val refresh_footer_classics = "io.github.scwang90:refresh-footer-classics:$refresh_version"    //经典加载
@@ -69,6 +72,7 @@ object Libraries{
     const val roundedimageview = "com.github.mmmelik:RoundedImageView:v1.0.1"
     const val rxjava3_rxandroid = "io.reactivex.rxjava3:rxandroid:3.0.0"
     const val rxjava3_rxjava = "io.reactivex.rxjava3:rxjava:$rxjava3" // https://github.com/ReactiveX/RxJava
+    const val security_crypto_datastore_preferences = "io.github.osipxd:security-crypto-datastore-preferences:1.0.0-alpha04" // https://github.com/osipxd/encrypted-datastore
     const val tbs="com.tencent.tbs:tbssdk:44216"
     const val transformationlayout = "com.github.skydoves:transformationlayout:1.0.8"
     const val vastadapter = "io.github.sakurajimamaii:VastAdapter:0.0.5"

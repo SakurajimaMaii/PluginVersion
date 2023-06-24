@@ -23,11 +23,16 @@ package com.pluginversion.vastgui
 // Documentation:
 
 object Google {
+    private const val hilt_version = "2.46.1" // https://dagger.dev/hilt/gradle-setup
+
     const val accompanist_coil = "com.google.accompanist:accompanist-coil:0.15.0" // 加载网络图片
     const val accompanist_insets = "com.google.accompanist:accompanist-insets:0.26.2-beta"
     const val accompanist_insets_ui = "com.google.accompanist:accompanist-insets-ui:0.26.2-beta"
+    const val accompanist_permissions = "com.google.accompanist:accompanist-permissions:0.31.3-beta" // https://google.github.io/accompanist/permissions/
     const val accompanist_systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.26.2-beta"
     const val gson = "com.google.code.gson:gson:2.10.1"
+    const val hilt_android = "com.google.dagger:hilt-android:$hilt_version"
+    const val hilt_compiler = "com.google.dagger:hilt-compiler:$hilt_version"
     const val material = "com.google.android.material:material:1.9.0-beta01"
     const val symbol_processing_api = "com.google.devtools.ksp:symbol-processing-api:1.8.10-1.0.9"
 }

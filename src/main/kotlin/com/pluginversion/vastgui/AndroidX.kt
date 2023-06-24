@@ -40,7 +40,7 @@ object AndroidX{
     private const val preference_version = "1.2.0"
     private const val recyclerview_selection_version = "1.1.0"
     private const val recyclerview_version = "1.2.1" // https://developer.android.com/jetpack/androidx/releases/recyclerview
-    private const val room_version = "2.4.3"
+    private const val room_version = "2.5.0" // https://developer.android.com/jetpack/androidx/releases/room
     private const val start_up_version = "1.1.1"
     private const val test_monitor_version = "1.5.0"
 
@@ -61,6 +61,7 @@ object AndroidX{
     const val core_ktx = "androidx.core:core-ktx:$core_version"
     const val core_splashscreen = "androidx.core:core-splashscreen:1.0.0"
     const val datastore = "androidx.datastore:datastore-preferences:$datastore_version"
+    const val datastore_proto = "androidx.datastore:datastore:1.0.0"
     const val emoji2 = "androidx.emoji2:emoji2:$emoji2_version"
     const val emoji2_views = "androidx.emoji2:emoji2-views:$emoji2_version"
     const val emoji2_views_helper = "androidx.emoji2:emoji2-views-helper:$emoji2_version"

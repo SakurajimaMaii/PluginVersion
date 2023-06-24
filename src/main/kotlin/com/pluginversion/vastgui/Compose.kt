@@ -43,6 +43,7 @@ object Compose {
     const val compose_constraintlayout = "androidx.constraintlayout:constraintlayout-compose:$version_compose_constraintlayout"
     const val compose_foundation = "androidx.compose.foundation:foundation:$version_compose_foundation"
     const val compose_foundation_layout = "androidx.compose.foundation:foundation-layout:$version_compose_foundation"
+    const val compose_lifecycle_runtime = "androidx.lifecycle:lifecycle-runtime-compose:2.6.1" // https://mvnrepository.com/artifact/androidx.lifecycle/lifecycle-runtime-compose
     const val compose_lifecycle_viewmodel = "androidx.lifecycle:lifecycle-viewmodel-compose:$version_compose_lifecycle_viewmodel"
     const val compose_material = "androidx.compose.material:material:$version_compose_material"
     const val compose_material3 = "androidx.compose.material3:material3:$version_material3_version"
