@@ -71,6 +71,9 @@ object AndroidX{
     const val fragment_ktx = "androidx.fragment:fragment-ktx:$fragment_version"
     const val fragment_testing = "androidx.fragment:fragment-testing:$fragment_version"
     const val junit = "androidx.test.ext:junit:$ext_junit_version"
+    const val hilt_lifecycle_viewmodel = "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03" // https://androidx.tech/artifacts/hilt/hilt-lifecycle-viewmodel/1.0.0-alpha03
+    const val hilt_compiler = "androidx.hilt:hilt-compiler:1.0.0" // https://androidx.tech/artifacts/hilt/hilt-compiler/1.0.0
+    const val hilt_navigation_compose = "androidx.hilt:hilt-navigation-compose:1.0.0"
     const val lifecycle_livedata = "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
     const val lifecycle_livedata_core = "androidx.lifecycle:lifecycle-livedata-core:$lifecycle_version"
     const val lifecycle_livedata_core_ktx = "androidx.lifecycle:lifecycle-livedata-core-ktx:$lifecycle_version"

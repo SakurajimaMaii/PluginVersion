@@ -31,8 +31,10 @@ object Libraries{
     const val proto_version = "3.23.2"
 
     const val aachartcore_kotlin = "com.github.AAChartModel:AAChartCore-Kotlin:7.2.0" // 图表 https://github.com/AAChartModel/AAChartCore-Kotlin/issues/146
-    const val addresspicker = "com.github.gzu-liyujiang.AndroidPicker:AddressPicker:4.1.9" //时间选择器 https://github.com/gzu-liyujiang/AndroidPicker
+    const val addresspicker = "com.github.gzu-liyujiang.AndroidPicker:AddressPicker:4.1.11" //时间选择器 https://github.com/gzu-liyujiang/AndroidPicker
     const val amapSearch = "com.amap.api:search:latest.integration"
+    const val amap_location = "com.amap.api:location:latest.integration" // https://lbs.amap.com/api/android-location-sdk/guide/create-project/android-studio-create-project#t1
+    const val amap_navi_3dmap = "com.amap.api:navi-3dmap:9.6.0_3dmap9.6.0"
     const val animatedbottombar = "nl.joery.animatedbottombar:library:1.1.0" //底部导航栏 https://github.com/Droppers/AnimatedBottomBar
     const val circleimageview = "de.hdodenhof:circleimageview:3.1.0" // https://github.com/hdodenhof/CircleImageView/issues
     const val colorpicker = "com.github.QuadFlask:colorpicker:0.0.15" //颜色选择器
@@ -54,7 +56,6 @@ object Libraries{
     const val junit = "junit:junit:4.13.2"
     const val lombok = "org.projectlombok:lombok:1.18.26" // https://mvnrepository.com/artifact/org.projectlombok/lombok
     const val mmkv = "com.tencent:mmkv:1.2.14"
-    const val navi_3dmap = "com.amap.api:navi-3dmap:9.6.0_3dmap9.6.0"
     const val permissionx = "com.guolindev.permissionx:permissionx:1.6.4" //自定义权限
     const val picktime = "com.github.codbking:PickTime:v1.0.1"
     const val progressmanager = "com.github.JessYanCoding:ProgressManager:v1.5.0"
@@ -73,6 +74,7 @@ object Libraries{
     const val rxjava3_rxandroid = "io.reactivex.rxjava3:rxandroid:3.0.0"
     const val rxjava3_rxjava = "io.reactivex.rxjava3:rxjava:$rxjava3" // https://github.com/ReactiveX/RxJava
     const val security_crypto_datastore_preferences = "io.github.osipxd:security-crypto-datastore-preferences:1.0.0-alpha04" // https://github.com/osipxd/encrypted-datastore
+    const val shimmer = "io.github.shenzhen2017:shimmer:1.0.0" // https://github.com/RicardoJiang/ComposeShimmer
     const val tbs="com.tencent.tbs:tbssdk:44216"
     const val transformationlayout = "com.github.skydoves:transformationlayout:1.0.8"
     const val vastadapter = "io.github.sakurajimamaii:VastAdapter:0.0.5"

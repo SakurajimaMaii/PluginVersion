@@ -9,5 +9,6 @@ object Ktor {
     val client_gson = "io.ktor:ktor-client-gson:$ktor_version"
     val client_logging = "io.ktor:ktor-client-logging:$ktor_version"
     val client_okhttp = "io.ktor:ktor-client-okhttp:$ktor_version"
+    val serialization_kotlinx_gson = "io.ktor:ktor-serialization-gson:$ktor_version"
     val serialization_kotlinx_json = "io.ktor:ktor-serialization-kotlinx-json:$ktor_version"
 }
