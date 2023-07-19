@@ -38,6 +38,8 @@ object Libraries{
     const val animatedbottombar = "nl.joery.animatedbottombar:library:1.1.0" //底部导航栏 https://github.com/Droppers/AnimatedBottomBar
     const val circleimageview = "de.hdodenhof:circleimageview:3.1.0" // https://github.com/hdodenhof/CircleImageView/issues
     const val colorpicker = "com.github.QuadFlask:colorpicker:0.0.15" //颜色选择器
+    const val commons_codec = "commons-codec:commons-codec:1.16.0" // https://mvnrepository.com/artifact/commons-codec/commons-codec
+    const val commons_lang3 = "org.apache.commons:commons-lang3:3.12.0" // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
     const val compose_coil = "io.coil-kt:coil-compose:2.4.0" // https://github.com/coil-kt/coil/
     const val compose_settings_storage_preferences = "com.github.alorma:compose-settings-storage-preferences:$compose_setting_version"
     const val compose_settings_ui_m3 = "com.github.alorma:compose-settings-ui-m3:$compose_setting_version" // https://github.com/alorma/Compose-Settings
@@ -54,6 +56,8 @@ object Libraries{
     const val jackson_core = "com.fasterxml.jackson.core:jackson-core:$jackson_version"
     const val jackson_databind = "com.fasterxml.jackson.core:jackson-databind:$jackson_version"
     const val junit = "junit:junit:4.13.2"
+    const val ktorm_core = "org.ktorm:ktorm-core:3.6.0" // https://central.sonatype.com/artifact/org.ktorm/ktorm-core
+    const val logback_classic = "ch.qos.logback:logback-classic:1.4.8" // https://central.sonatype.com/namespace/ch.qos.logback
     const val lombok = "org.projectlombok:lombok:1.18.26" // https://mvnrepository.com/artifact/org.projectlombok/lombok
     const val mmkv = "com.tencent:mmkv:1.2.14"
     const val permissionx = "com.guolindev.permissionx:permissionx:1.6.4" //自定义权限
