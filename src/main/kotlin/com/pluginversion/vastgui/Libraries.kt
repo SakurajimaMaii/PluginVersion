@@ -47,6 +47,7 @@ object Libraries{
     const val donut = "app.futured.donut:donut:$donut_version"
     const val donut_compose = "app.futured.donut:donut-compose:$donut_version"
     const val event_bus = "org.greenrobot:eventbus:3.3.1" // https://github.com/greenrobot/EventBus
+    const val fastjson2 = "com.alibaba.fastjson2:fastjson2:2.0.39.android4"
     const val flow_event_bus = "com.github.biubiuqiu0:flow-event-bus:1.0.1" // https://github.com/biubiuqiu0/flow-event-bus
     const val glide = "com.github.bumptech.glide:glide:4.14.2" // https://github.com/bumptech/glide
     const val glide_compiler = "com.github.bumptech.glide:compiler:4.14.2" // https://github.com/bumptech/glide

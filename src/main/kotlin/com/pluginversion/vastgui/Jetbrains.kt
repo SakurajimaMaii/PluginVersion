@@ -25,9 +25,9 @@ package com.pluginversion.vastgui
 
 object Jetbrains {
 
-    private const val reflect_version = "1.7.20"
-    private const val coroutines_android_version = "1.7.1" // https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-android
-    private const val coroutines_version = "1.7.2" // https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-core
+    private const val reflect_version = "1.8.10" // https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-reflect
+    private const val coroutines_android_version = "1.7.3" // https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-android
+    private const val coroutines_version = "1.7.3" // https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-core
 
     const val kotlin_stdlib = "org.jetbrains.kotlin:kotlin-stdlib:$coroutines_version"
     const val kotlin_reflect = "org.jetbrains.kotlin:kotlin-reflect:$reflect_version"
