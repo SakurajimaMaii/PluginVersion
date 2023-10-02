@@ -82,7 +82,5 @@ object Libraries{
     const val shimmer = "io.github.shenzhen2017:shimmer:1.0.0" // https://github.com/RicardoJiang/ComposeShimmer
     const val tbs="com.tencent.tbs:tbssdk:44216"
     const val transformationlayout = "com.github.skydoves:transformationlayout:1.0.8"
-    const val vastadapter = "io.github.sakurajimamaii:VastAdapter:0.0.5"
-    const val vastnetstatelayout = "io.github.sakurajimamaii:VastNetStateLayout:0.0.3"
     const val zxing = "com.google.zxing:core:3.5.0" // https://github.com/zxing/zxing
 }
